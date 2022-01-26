@@ -1,0 +1,19 @@
+.blogItems{
+    background-color: hsl(34, 8%, 33%);
+    padding: 10px 40px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+
+}
+
+.blogItems h1{
+    color: white;
+    margin: 10px 0;
+    font-family: Comic Sans MS;
+}
+
+.blogItems p{
+    color: palegreen;
+    margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

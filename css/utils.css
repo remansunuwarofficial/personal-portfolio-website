@@ -1,0 +1,45 @@
+.container{
+    width: 80vw;
+}
+
+.itemscenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.my-5{
+    margin-top: 50px;
+}
+
+.my-3{
+    margin-top: 30px;
+}
+
+.alignItemsVHC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.btn-danger{
+    background-color: tomato;
+    border: 1px solid tomato;
+    color: green;
+}
+
+.my-10{
+    margin: 130px 0;
+}

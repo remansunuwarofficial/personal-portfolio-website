@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(7, 7, 76);
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+}
+
+nav .logo a{
+    color: white;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+nav .navlist ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    color: white;
+    margin: 30px;
+}
+
+.hamburger .fa-bars{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 655px) {
+    .hamburger{
+        position: absolute;
+        left: 90%;
+        top: 13px;
+    }
+   .hamburger .fa-bars{
+       display: block;
+   }
+  
+   nav{
+       flex-direction: column;
+       align-items: flex-start;
+       padding: 10px 20px;
+       margin: 0;
+   }
+
+   nav .logo a{
+       margin-left: 14px;
+   }
+
+   nav .navlist ul{
+       flex-direction: column;
+   }
+
+   nav li a{
+       margin: 0;
+       text-align: center;
+   }
+
+   nav li{
+       margin: 10px;
+   }
+
+   .navHeight{
+       height:50px;
+       transition: all 1s ease-in;
+   }
+
+   .navOpacity{
+       opacity: 0;
+       transition: all 0.3s ease-in;
+   }
+
+   .navOpacityVisible{
+       opacity: 2;
+       transition: all 3s ease-in;
+   }
+
+   .navHeightActive{
+       height: 185px;
+       padding-bottom: 20px;
+       transition: all 1s ease-in;
+   }
+
+}
+
+
+.heroTexts h1{
+    font-size: 90px;
+}
+
+.heroTexts p{
+    font-size: 30px;
+}
+
+.heightabout{
+    height: 60vh;
+}
+
+.aboutRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutRow .aboutLeft img{
+    width: 80%;
+}
+
+footer{
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 262px){
+    .hamburger{
+        position: absolute;
+        left: 81%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 880px){
+    .heroRow{
+        flex-direction: column;
+
+    }
+
+    .hero{
+        margin: 40px 0;
+    }
+    .heroTexts h1{
+        font-size: 60px;
+    }
+
+    .hero p{
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 444px){
+    .heroRow{
+        flex-direction: column;
+
+    }
+
+    .hero{
+        margin: 40px 0;
+    }
+
+    .heroImg img{
+        width: 100%;
+    }
+    .heroTexts h1{
+        font-size: 40px;
+    }
+
+    .hero p{
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 860px){
+    .aboutRow{
+        flex-direction: column;
+    }
+
+    .aboutRow .aboutLeft img{
+        margin-bottom: 30px;
+    }
+
+   
+}
+
+
